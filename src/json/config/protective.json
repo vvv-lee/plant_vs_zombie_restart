@@ -1,0 +1,50 @@
+{
+  "cone": {
+    "hp": 1000,
+    "animationKey": "baseZombie",
+    "status": {
+      "health": {
+        "minHp": 0.667,
+        "animations": [
+          "healthCone"
+        ]
+      },
+      "broken ": {
+        "minHp": 0.33,
+        "animations": [
+          "brokenCone"
+        ]
+      },
+      "veryBroken ": {
+        "minHp": 0,
+        "animations": [
+          "veryBrokenCone"
+        ]
+      }
+    }
+  },
+  "helmet": {
+    "hp": 1000,
+    "animationKey": "footBallZombie",
+    "status": {
+      "health": {
+        "minHp": 0.667,
+        "animations": [
+          "healthHelmet"
+        ]
+      },
+      "broken ": {
+        "minHp": 0.33,
+        "animations": [
+          "brokenHelmet"
+        ]
+      },
+      "veryBroken ": {
+        "minHp": 0,
+        "animations": [
+          "veryBrokenHelmet"
+        ]
+      }
+    }
+  }
+}

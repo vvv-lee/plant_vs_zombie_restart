@@ -1,0 +1,1142 @@
+{
+  "ZZZ": {
+    "file": "json/plant/ZZZ.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "zzz"
+        ]
+      }
+    }
+  },
+  "DoomShroom": {
+    "file": "json/plant/DoomShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep",
+          "explode"
+        ]
+      }
+    }
+  },
+  "HypnoShroom": {
+    "file": "json/plant/HypnoShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep"
+        ]
+      }
+    }
+  },
+  "Squash": {
+    "file": "json/plant/Squash.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "Starfruit": {
+    "file": "json/plant/Starfruit.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "TangleKelp": {
+    "file": "json/plant/TangleKelp.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "ThreePeaShooter": {
+    "file": "json/plant/ThreePeaShooter.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "TwinSunflower": {
+    "file": "json/plant/TwinSunflower.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "UmbrellaLeaf": {
+    "file": "json/plant/UmbrellaLeaf.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "block"
+        ]
+      }
+    }
+  },
+  "WinterMelonPult": {
+    "file": "json/plant/WinterMelonPult.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "attack"
+        ]
+      }
+    }
+  },
+  "SplitPea": {
+    "file": "json/plant/SplitPea.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "attack"
+        ]
+      }
+    }
+  },
+  "SpikeWeed": {
+    "file": "json/plant/SpikeWeed.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "attack"
+        ]
+      }
+    }
+  },
+  "SpikeRock": {
+    "file": "json/plant/SpikeRock.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "attack"
+        ]
+      }
+    }
+  },
+  "SeaShroom": {
+    "file": "json/plant/SeaShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep",
+          "idle_aquarium",
+          "shooting",
+          "waterline"
+        ]
+      }
+    }
+  },
+  "ScaredyShroom": {
+    "file": "json/plant/ScaredyShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "blink",
+          "sleep",
+          "scared",
+          "scaredidle",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "PotatoMine": {
+    "file": "json/plant/Plantern.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "armed",
+          "rise",
+          "idle",
+          "blink",
+          "mashed"
+        ]
+      }
+    }
+  },
+  "Plantern": {
+    "file": "json/plant/Plantern.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "MelonPult": {
+    "file": "json/plant/MelonPult.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "MagnetShroom": {
+    "file": "json/plant/MagnetShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "nonactive_idle",
+          "shooting",
+          "sleep",
+          "nonactive_idle2"
+        ]
+      }
+    }
+  },
+  "LilyPad": {
+    "file": "json/plant/LilyPad.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "KernelPult": {
+    "file": "json/plant/KernelPult.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "explode",
+          "idle"
+        ]
+      }
+    }
+  },
+  "Jalapeno": {
+    "file": "json/plant/Jalapeno.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "explode",
+          "idle"
+        ]
+      }
+    }
+  },
+  "IceShroom": {
+    "file": "json/plant/IceShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "attract",
+          "idle",
+          "sleep",
+          "explode"
+        ]
+      }
+    }
+  },
+  "GoldMagnet": {
+    "file": "json/plant/GoldMagnet.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "attract",
+          "idle",
+          "sleep"
+        ]
+      }
+    }
+  },
+  "GloomShroom": {
+    "file": "json/plant/GloomShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "shooting",
+          "sleep"
+        ]
+      }
+    }
+  },
+  "CoffeeBean": {
+    "file": "json/plant/CoffeeBean.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "twitch",
+          "crumble"
+        ]
+      }
+    }
+  },
+  "CobCannon": {
+    "file": "json/plant/Cattail.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "unarmed_idle",
+          "idle",
+          "shooting",
+          "charge"
+        ]
+      }
+    }
+  },
+  "Cattail": {
+    "file": "json/plant/Cattail.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "CabbagePult": {
+    "file": "json/plant/CabbagePult.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "GraveBuster": {
+    "file": "json/plant/GraveBuster.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "land"
+        ]
+      }
+    }
+  },
+  "FumeShroom": {
+    "file": "json/plant/FumeShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "SunShroom": {
+    "file": "json/plant/SunShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep",
+          "bigIdle",
+          "bigSleep",
+          "glow"
+        ]
+      }
+    }
+  },
+  "PuffShroom": {
+    "file": "json/plant/PuffShroom.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "sleep",
+          "shooting"
+        ]
+      }
+    }
+  },
+  "Chomper": {
+    "file": "json/plant/Chomper.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "CherryBomb": {
+    "file": "json/plant/CherryBomb.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "explode"
+        ]
+      },
+      "card": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "CactusBullet": {
+    "file": "json/bullet/CactusBullet.json",
+    "height": 16,
+    "width": 30,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "Pea": {
+    "file": "json/bullet/pea.json",
+    "height": 28,
+    "width": 28,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "Tallnut": {
+    "file": "json/plant/Tallnut.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      },
+      "cracked1": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "tallnut_body": "tallnut_cracked1"
+        }
+      },
+      "cracked2": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "tallnut_body": "tallnut_cracked2"
+        }
+      }
+    }
+  },
+  "Pumpkin": {
+    "file": "json/plant/Pumpkin.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      },
+      "damage1": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "pumpkin_front": "pumpkin_damage1"
+        }
+      },
+      "damage2": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "pumpkin_front": "pumpkin_damage2"
+        }
+      },
+      "damage3": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "pumpkin_front": "pumpkin_damage3"
+        }
+      }
+    }
+  },
+  "Garlic": {
+    "file": "json/plant/Garlic.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      },
+      "cracked1": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "garlic_body1": "garlic_body2"
+        }
+      },
+      "cracked2": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "garlic_body1": "garlic_body3"
+        }
+      }
+    }
+  },
+  "WallNut": {
+    "file": "json/plant/WallNut.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      },
+      "cracked1": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "wallnut_body": "wallnut_cracked1"
+        }
+      },
+      "cracked2": {
+        "needActions": [
+          "idle"
+        ],
+        "replace": {
+          "wallnut_body": "wallnut_cracked2"
+        }
+      }
+    }
+  },
+  "Sun": {
+    "file": "json/recyclable/Sun.json",
+    "height": 40,
+    "width": 40,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "CoinGold": {
+    "file": "json/recyclable/CoinGold.json",
+    "height": 20,
+    "width": 20,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "CoinSilver": {
+    "file": "json/recyclable/CoinSilver.json",
+    "height": 20,
+    "width": 20,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "Cactus": {
+    "file": "json/plant/Cactus.json",
+    "height": 80,
+    "width": 100,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle",
+          "shooting",
+          "rise",
+          "idlehigh",
+          "shootinghigh",
+          "lower"
+        ]
+      }
+    }
+  },
+  "SunFlower": {
+    "file": "json/plant/SunFlower.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "main": {
+        "needActions": [
+          "idle"
+        ]
+      }
+    }
+  },
+  "PeaShooterDouble": {
+    "file": "json/plant/PeaShooterDouble.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "card": {
+        "needActions": [
+          "full_idle"
+        ]
+      },
+      "main": {
+        "needActions": [
+          "shooting",
+          "idle"
+        ]
+      }
+    }
+  },
+  "PeaShooterSingle": {
+    "file": "json/plant/PeaShooterSingle.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "leaf": {
+        "needActions": [
+          "leaf_idle"
+        ]
+      },
+      "card": {
+        "needActions": [
+          "full_idle"
+        ]
+      },
+      "main": {
+        "needActions": [
+          "shooting",
+          "idle"
+        ]
+      }
+    }
+  },
+  "GatlingPeaShooter": {
+    "file": "json/plant/GatlingPeaShooter.json",
+    "height": 80,
+    "width": 80,
+    "animations": {
+      "card": {
+        "needActions": [
+          "idle"
+        ]
+      },
+      "main": {
+        "needActions": [
+          "shooting",
+          "idle",
+          "leaf_idle"
+        ]
+      }
+    }
+  },
+  "BaseZombie": {
+    "file": "json/zombie/BaseZombie.json",
+    "height": 120,
+    "width": 30,
+    "animations": {
+      "innerArm": {
+        "needActions": [
+          "death",
+          "death2",
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_innerarm_upper",
+          "zombie_innerarm_hand",
+          "zombie_innerarm_lower"
+        ]
+      },
+      "brokenOutArm": {
+        "needActions": [
+          "death",
+          "death2",
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_outerarm_lower",
+          "zombie_outerarm_upper",
+          "zombie_outerarm_hand"
+        ],
+        "replace": {
+          "zombie_outerarm_upper": "zombie_outerarm_upper1"
+        }
+      },
+      "outArm": {
+        "needActions": [
+          "death",
+          "death2",
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_outerarm_lower",
+          "zombie_outerarm_upper",
+          "zombie_outerarm_hand"
+        ]
+      },
+      "head": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_head",
+          "zombie_jaw"
+        ]
+      },
+      "immutable": {
+        "needActions": [
+          "death",
+          "death2",
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_tie",
+          "zombie_body",
+          "zombie_outerleg_lower",
+          "zombie_outerleg_foot",
+          "zombie_outerleg_upper",
+          "zombie_innerleg_foot",
+          "zombie_innerleg_lower",
+          "zombie_innerleg_upper",
+          "zombie_neck"
+        ]
+      },
+      "healthCone": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_cone1"
+        ]
+      },
+      "brokenCone": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_cone1"
+        ],
+        "replace": {
+          "zombie_cone1": "zombie_cone2"
+        }
+      },
+      "veryBrokenCone": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_cone1"
+        ],
+        "replace": {
+          "zombie_cone1": "zombie_cone3"
+        }
+      }
+    }
+  },
+  "FootBallZombie": {
+    "file": "json/zombie/FootBallZombie.json",
+    "height": 120,
+    "width": 30,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "walk",
+          "eat",
+          "death",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_rightarm_hand",
+          "zombie_football_leftarm_hand",
+          "zombie_football_upperbody3",
+          "zombie_football_rightarm_lower",
+          "zombie_football_rightarm_upper",
+          "zombie_football_upperbody",
+          "zombie_football_leftarm_lower",
+          "zombie_football_upperbody2",
+          "zombie_football_rightleg_upper",
+          "zombie_football_rightleg_foot",
+          "zombie_football_rightleg_lower",
+          "zombie_football_lowerbody",
+          "zombie_football_leftleg_upper",
+          "zombie_football_leftleg_lower",
+          "zombie_football_leftleg_foot",
+          "zombie_football_leftarm_upper"
+        ]
+      },
+      "head": {
+        "needActions": [
+          "walk",
+          "eat",
+          "death",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_head",
+          "zombie_jaw",
+          "zombie_hair"
+        ]
+      },
+      "leftArm": {
+        "needActions": [
+          "walk",
+          "eat",
+          "death",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_leftarm_lower",
+          "zombie_football_leftarm_hand",
+          "zombie_football_leftarm_upper",
+          "zombie_football_leftarm_hand"
+        ]
+      },
+      "healthHelmet": {
+        "needActions": [
+          "walk",
+          "eat",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_helmet"
+        ]
+      },
+      "brokenHelmet": {
+        "needActions": [
+          "walk",
+          "eat",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_helmet"
+        ],
+        "replace": {
+          "zombie_football_helmet": "zombie_football_helmet2"
+        }
+      },
+      "veryBrokenHelmet": {
+        "needActions": [
+          "walk",
+          "eat",
+          "idle"
+        ],
+        "fragments": [
+          "zombie_football_helmet"
+        ],
+        "replace": {
+          "zombie_football_helmet": "zombie_football_helmet3"
+        }
+      }
+    }
+  },
+  "PaperZombie": {
+    "file": "json/zombie/PaperZombie.json",
+    "height": 120,
+    "width": 30,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "death",
+          "eat",
+          "eat_nopaper",
+          "walk",
+          "walk_nopaper",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_rightarm_upper",
+          "zombie_paper_rightarm_lower",
+          "zombie_paper_hands2",
+          "zombie_paper_lowerbody2",
+          "zombie_paper_rightleg_upper",
+          "zombie_paper_rightleg_lower",
+          "zombie_paper_rightleg_lower",
+          "zombie_paper_rightfoot",
+          "zombie_paper_leftleg_upper",
+          "zombie_paper_leftleg_lower",
+          "zombie_paper_leftfoot",
+          "zombie_paper_lowerbody1",
+          "zombie_paper_body",
+          "zombie_paper_leftarm_lower",
+          "zombie_paper_head_look",
+          "zombie_pupil",
+          "zombie_paper_hairpiece",
+          "zombie_paper_paper1",
+          "zombie_paper_hands",
+          "zombie_paper_hands3"
+        ]
+      },
+      "head": {
+        "needActions": [
+          "death",
+          "eat",
+          "eat_nopaper",
+          "walk",
+          "walk_nopaper",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_jaw",
+          "zombie_hair",
+          "zombie_head",
+          "zombie_paper_glasses"
+        ]
+      },
+      "arm": {
+        "needActions": [
+          "death",
+          "eat",
+          "eat_nopaper",
+          "walk",
+          "walk_nopaper",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_leftarm_upper"
+        ]
+      },
+      "brokenArm": {
+        "needActions": [
+          "death",
+          "eat",
+          "eat_nopaper",
+          "walk",
+          "walk_nopaper",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_leftarm_upper"
+        ],
+        "replace": {
+          "zombie_paper_leftarm_upper": "zombie_paper_leftarm_upper2"
+        }
+      },
+      "healthPaper": {
+        "needActions": [
+          "death",
+          "eat",
+          "walk",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_paper1"
+        ]
+      },
+      "brokenPaper": {
+        "needActions": [
+          "death",
+          "eat",
+          "walk",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_paper1"
+        ],
+        "replace": {
+          "zombie_paper_paper1": "zombie_paper_paper2"
+        }
+      },
+      "veryBrokenPaper": {
+        "needActions": [
+          "death",
+          "eat",
+          "walk",
+          "idle",
+          "gasp"
+        ],
+        "fragments": [
+          "zombie_paper_paper1"
+        ],
+        "replace": {
+          "zombie_paper_paper1": "zombie_paper_paper3"
+        }
+      }
+    }
+  },
+  "LadderZombie": {
+    "file": "json/zombie/LadderZombie.json",
+    "height": 120,
+    "width": 30,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "idle",
+          "ladderwalk",
+          "laddereat",
+          "death",
+          "walk",
+          "placeladdereat"
+        ]
+      }
+    }
+  },
+  "JacksonZombie": {
+    "file": "json/zombie/JacksonZombie.json",
+    "height": 120,
+    "width": 100,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "moonwalk",
+          "point",
+          "walk",
+          "armraise",
+          "eat",
+          "death"
+        ]
+      }
+    }
+  },
+  "JackBoxZombie": {
+    "file": "json/zombie/JackBoxZombie.json",
+    "height": 130,
+    "width": 80,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "idle",
+          "walk",
+          "pop",
+          "eat",
+          "death"
+        ]
+      }
+    }
+  }
+}

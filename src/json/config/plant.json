@@ -1,0 +1,362 @@
+{
+  "DoomShroom": {
+    "cnName": "毁灭菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "defaultAction": "sleep",
+    "package": "shroom"
+  },
+  "WinterMelonPult": {
+    "cnName": "冰瓜投手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "pult"
+  },
+  "UmbrellaLeaf": {
+    "cnName": "保护伞",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "TwinSunflower": {
+    "cnName": "双子向日葵",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "produce"
+  },
+  "TangleKelp": {
+    "cnName": "海藻",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "water"
+  },
+  "Starfruit": {
+    "cnName": "杨桃",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shoot"
+  },
+  "Squash": {
+    "cnName": "倭瓜",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "SpikeRock": {
+    "cnName": "地刺王",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "SeaShroom": {
+    "cnName": "水喷菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom"
+  },
+  "ScaredyShroom": {
+    "cnName": "胆小菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom"
+  },
+  "PotatoMine": {
+    "cnName": "土豆雷",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "Plantern": {
+    "cnName": "路灯花",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+
+  },
+  "MelonPult": {
+    "cnName": "西瓜投手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+
+    "package": "pult"
+
+  },
+  "MagnetShroom": {
+    "cnName": "磁力菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom"
+
+  },
+  "LilyPad": {
+    "cnName": "荷叶",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+
+  },
+  "Jalapeno": {
+    "cnName": "辣椒",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "oneTime"
+
+
+  },
+  "IceShroom": {
+    "cnName": "冰蘑菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom"
+  },
+  "HypnoShroom": {
+    "cnName": "魅惑蘑菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom",
+    "defaultAction": "sleep"
+
+  },
+  "GoldMagnet": {
+    "cnName": "吸金磁",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "GloomShroom": {
+    "cnName": "忧郁蘑菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom"
+
+  },
+  "KernelPult": {
+    "cnName": "玉米投手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "pult"
+
+  },
+  "CoffeeBean": {
+    "cnName": "咖啡豆",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+  },
+  "CobCannon": {
+    "cnName": "玉米加农炮",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+
+  },
+  "Cattail": {
+    "cnName": "香蒲",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shoot"
+  },
+  "SpikeWeed": {
+    "cnName": "地刺",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000
+
+  },
+  "CabbagePult": {
+    "cnName": "卷心菜投手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "defaultAction": "idle",
+    "package": "pult"
+  },
+  "GraveBuster": {
+    "cnName": "墓碑吞噬者",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "defaultAction": "idle"
+  },
+  "FumeShroom": {
+    "cnName": "大喷菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom",
+    "defaultAction": "sleep"
+  },
+  "SunShroom": {
+    "cnName": "阳光菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom",
+    "defaultAction": "sleep"
+  },
+  "PuffShroom": {
+    "cnName": "小喷菇",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "shroom",
+    "defaultAction": "sleep"
+  },
+  "Chomper": {
+    "cnName": "大嘴花",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "defaultAction": "idle"
+  },
+  "CherryBomb": {
+    "cnName": "樱桃炸弹",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "defaultAction": "explode",
+    "package": "oneTime"
+  },
+  "Pumpkin": {
+    "cnName": "南瓜",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "defence"
+  },
+  "Tallnut": {
+    "cnName": "高坚果",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "defence"
+
+  },
+  "Garlic": {
+    "cnName": "大蒜",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "defence"
+  },
+  "WallNut": {
+    "cnName": "坚果",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 3000,
+    "package": "defence"
+
+  },
+  "SunFlower": {
+    "cnName": "向日葵",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+
+    "package": "produce"
+
+  },
+  "ThreePeaShooter": {
+    "cnName": "三发射手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot.peaShooter"
+
+  },
+  "SplitPea": {
+    "cnName": "裂荚射手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot.peaShooter"
+
+  },
+  "GatlingPeaShooter": {
+    "cnName": "加特林射手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot.peaShooter"
+
+  },
+  "PeaShooterDouble": {
+    "cnName": "双发射手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot.peaShooter"
+  },
+  "PeaShooterSingle": {
+    "cnName": "豌豆射手",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot.peaShooter"
+  },
+  "Cactus": {
+    "cnName": "仙人掌",
+    "sunPower": 50,
+    "cdSecond": 1,
+    "rarity": 2,
+    "maxHp": 100,
+    "package": "shoot"
+  }
+}

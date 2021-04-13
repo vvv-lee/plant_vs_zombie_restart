@@ -1,0 +1,277 @@
+{
+  "ConeZombie": {
+    "hp": 1000,
+    "animationKey": "baseZombie",
+    "file": "json/zombie/BaseZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk",
+        "walk2"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death",
+        "death2"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "innerArm",
+          "immutable",
+          "head",
+          "outArm"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "innerArm",
+          "head",
+          "immutable",
+          "brokenOutArm"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "innerArm",
+          "immutable"
+        ]
+      }
+    }
+  },
+  "NormalZombie": {
+    "hp": 1000,
+    "animationKey": "baseZombie",
+    "file": "json/zombie/BaseZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk",
+        "walk2"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death",
+        "death2"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "innerArm",
+          "immutable",
+          "head",
+          "outArm"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "innerArm",
+          "head",
+          "immutable",
+          "brokenOutArm"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "innerArm",
+          "immutable"
+        ]
+      }
+    }
+  },
+  "FootBallZombie": {
+    "hp": 1000,
+    "animationKey": "footBallZombie",
+    "file": "json/zombie/FootBallZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable",
+          "head",
+          "leftarm"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable",
+          "head"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  },
+  "PaperZombie": {
+    "hp": 1000,
+    "animationKey": "PaperZombie",
+    "file": "json/zombie/PaperZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable",
+          "head"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable",
+          "head"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  },
+  "LadderZombie": {
+    "hp": 1000,
+    "animationKey": "LadderZombie",
+    "file": "json/zombie/LadderZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  },
+  "JacksonZombie": {
+    "hp": 1000,
+    "animationKey": "JacksonZombie",
+    "file": "json/zombie/JacksonZombie.json",
+    "actionMapping": {
+      "move": [
+        "moonwalk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  },
+  "JackBoxZombie": {
+    "hp": 1000,
+    "animationKey": "JackBoxZombie",
+    "file": "json/zombie/JackBoxZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  }
+}
