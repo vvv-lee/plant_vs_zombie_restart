@@ -29,10 +29,7 @@ public class ZombieBody extends AbstractAnimation implements Health {
     private Map<String, String> actionMapping;
 
 
-    private double crashHeight;
-    private double beginX;
-    private double crashWidth;
-    private double beginY;
+
 
 
     public ZombieBody(Zombie zombie) {
@@ -40,10 +37,6 @@ public class ZombieBody extends AbstractAnimation implements Health {
         this.init(zombie.zombieCard());
         update();
         this.animationData = showDataList.iterator().next();
-        this.crashHeight = animationData.getCrashHeight();
-        this.beginX = animationData.getBeginX();
-        this.crashWidth = animationData.getCrashWidth();
-        this.beginY = animationData.getBeginY();
     }
 
 
@@ -114,11 +107,7 @@ public class ZombieBody extends AbstractAnimation implements Health {
         return hp;
     }
 
-    public boolean crashBullet(Bullet bullet) {
-        double x = bullet.getX();
-        double y = bullet.getY();
-        return x > this.beginX && x < this.beginX + crashWidth && y > this.beginY && y < beginY + crashHeight;
-    }
+
 
 //    default boolean xCrash(TetragonumCrash crash) {
 //        if (crash.getCrashX() > getCrashX()) {

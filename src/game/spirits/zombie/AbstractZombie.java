@@ -40,9 +40,10 @@ public class AbstractZombie extends MoveSprite implements Zombie {
     }
 
     @Override
-    public boolean crashBullet(Bullet bullet) {
+    public boolean crashBullet(Bullet bullet)
+    {
 
-        return zombieBody.crashBullet(bullet);
+        return crash(bullet);
     }
 
     @Override

@@ -51,7 +51,7 @@ public class DataByJsonBuilder extends AbstractDataBuilder {
 
         return buildData(jsonObject, includeActions, includeImages, includeFrames, replaceMap)
                 .setCrashWidth(width)
-                .setCrashHeight(height).setKey(cacheKey);
+                .setCrashHeight(height).setKey(cacheKey).setCrashY(crashY).setCrashX(crashX);
     }
 
     private static DataByJson buildData(JsonObject jsonObject,

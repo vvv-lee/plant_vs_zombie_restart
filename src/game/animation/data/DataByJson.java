@@ -2,6 +2,7 @@ package game.animation.data;
 
 import game.config.animation.AnimationConfig;
 import game.config.animation.Animations;
+import game.main.Game;
 import game.resourceUtil.Fragment;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.image.Image;
@@ -32,6 +33,10 @@ public class DataByJson implements AnimationData {
     protected double crashWidth;
 
     protected double crashHeight;
+
+    protected double crashX;
+
+    protected double crashY;
 
     public DataByJson(
             Map<String, List<List<Fragment>>> fragmentMap,
@@ -163,7 +168,7 @@ public class DataByJson implements AnimationData {
             }
             customFragment.put(action, frameList);
         }
-        return new DataByJson(customFragment, speedMap, null).setCrashHeight(crashHeight).setCrashWidth(crashWidth);
+        return new DataByJson(customFragment, speedMap, null).setCrashHeight(crashHeight).setCrashWidth(crashWidth).setCrashX(crashX).setCrashY(crashY);
     }
 
 
@@ -240,13 +245,23 @@ public class DataByJson implements AnimationData {
     }
 
     @Override
-    public double getBeginX() {
-        return 0;
+    public double getCrashX() {
+        return crashX;
+    }
+
+    public DataByJson setCrashX(double crashX) {
+        this.crashX = crashX;
+        return this;
     }
 
     @Override
-    public double getBeginY() {
-        return 0;
+    public double getCrashY() {
+        return crashY;
+    }
+
+    public DataByJson setCrashY(double crashY) {
+        this.crashY = crashY;
+        return this;
     }
 
     @Override

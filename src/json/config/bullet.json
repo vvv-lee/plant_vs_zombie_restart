@@ -1,10 +1,12 @@
 {
   "Pea": {
     "maxSpeed": 6,
-    "baseAttack": 10
+    "baseAttack": 10,
+    "maxHitNum": 1
   },
   "CactusBullet": {
     "maxSpeed": 2,
-    "baseAttack": 10
+    "baseAttack": 10,
+    "maxHitNum": 1
   }
 }

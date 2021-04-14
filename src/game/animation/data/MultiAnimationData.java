@@ -86,13 +86,13 @@ public class MultiAnimationData implements AnimationData {
     }
 
     @Override
-    public double getBeginX() {
-        return mainData.getBeginX();
+    public double getCrashX() {
+        return mainData.getCrashX();
     }
 
     @Override
-    public double getBeginY() {
-        return mainData.getBeginY();
+    public double getCrashY() {
+        return mainData.getCrashY();
     }
 
     @Override

@@ -35,9 +35,9 @@ public interface AnimationData {
 
     double getCrashHeight();
 
-    double getBeginX();
+    double getCrashX();
 
-    double getBeginY();
+    double getCrashY();
 
     AnimationData customAnimation(String cacheKey, AnimationConfig config
     );

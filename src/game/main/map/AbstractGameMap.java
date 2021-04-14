@@ -28,7 +28,7 @@ public abstract class AbstractGameMap implements DefaultGameMap {
     public AbstractGameMap() {
         mapInfo = buildMapInfo();
         mapData = new MapData(this);
-        List<Zombie> zombieList = getZombieQueueList().get(3);
+        List<Zombie> zombieList = getZombieQueueList().get(0);
         zombieList.add(new ConeZombie(mapInfo.yByRow(0), 800));
     }
 

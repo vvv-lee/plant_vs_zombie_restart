@@ -1,13 +1,17 @@
 package game.spirits.bullet;
 
+import game.config.animation.Animations;
 import game.config.bullect.BulletCard;
 import game.config.bullect.BulletMoveType;
 import game.spirits.interfaces.Bullet;
 import game.spirits.interfaces.Coordinate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Constructor;
 
 public class BulletBuilder {
+    private static Logger logger = LoggerFactory.getLogger(BulletBuilder.class);
     private static Constructor<? extends TranslationalBullet> translationalConstructor;
     private static Constructor<? extends LockBullet> lockConstructor;
 
@@ -55,16 +59,19 @@ public class BulletBuilder {
     public Bullet build() {
         if (bulletCard == null) throw new RuntimeException("没有选择合适的子弹");
         try {
+
             if (bulletMoveType.equals(BulletMoveType.lock)) {
                 return lockConstructor.newInstance(bulletCard, y, x);
 
             } else if (bulletMoveType.equals(BulletMoveType.bytThrow)) {
                 return translationalConstructor.newInstance(bulletCard, y, x);
             } else {
-                return translationalConstructor.newInstance(bulletCard, y, x);
+
+
+
+                return      new TranslationalBullet(bulletCard,y,x);
             }
         } catch (Exception e) {
-            e.printStackTrace();
             throw new RuntimeException();
         }
 

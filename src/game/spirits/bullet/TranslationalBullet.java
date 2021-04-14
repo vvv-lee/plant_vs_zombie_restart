@@ -12,14 +12,25 @@ import game.spirits.zombie.base.ZombieBuff;
 import java.util.Collections;
 import java.util.List;
 
-public abstract class TranslationalBullet extends MoveSprite implements Bullet {
+public  class TranslationalBullet extends MoveSprite implements Bullet {
 
     protected BulletCard bulletCard;
 
-    boolean haveHit = false;
 
-    Translational translational;
+    protected byte hitNum = 0;
 
+    protected byte maxHitNum;
+
+    protected Translational translational;
+    public TranslationalBullet(BulletCard bulletCard, double y, double x) {
+        this.y = y;
+        this.x = x;
+        this.bulletCard = bulletCard;
+        this.animation = new SingleAnimation(this, bulletCard.getAnimationData());
+        this.translational = new Translational(bulletCard);
+        this.maxHitNum = bulletCard.getMaxHitNum();
+        this.setAction("idle");
+    }
 
     public TranslationalBullet newTranslational(int timer, double angle) {
         translational.newTranslational(timer, angle);
@@ -38,14 +49,6 @@ public abstract class TranslationalBullet extends MoveSprite implements Bullet {
 
 
 
-    public TranslationalBullet(BulletCard bulletCard, double y, double x) {
-        this.y = y;
-        this.x = x;
-        this.bulletCard = bulletCard;
-        this.animation = new SingleAnimation(this, bulletCard.getAnimationData());
-        this.translational = new Translational(bulletCard);
-        this.setAction("idle");
-    }
 
     @Override
     public Bullet withBuffs(ZombieBuff zombieBuff) {
@@ -81,7 +84,7 @@ public abstract class TranslationalBullet extends MoveSprite implements Bullet {
 
     @Override
     public boolean needRemove() {
-        return haveHit;
+        return hitNum >= maxHitNum;
     }
 
     @Override
@@ -94,7 +97,8 @@ public abstract class TranslationalBullet extends MoveSprite implements Bullet {
     @Override
     public boolean hurt(Zombie zombie) {
 //        zombie.hitByBullet(this);
-        haveHit = true;
+        if (needRemove()) return false;
+        hitNum++;
         return true;
     }
 }

@@ -14,6 +14,21 @@ public abstract class AbstractDataBuilder implements DataBuilder {
 
     protected double width;
 
+    protected double crashX;
+
+    protected double crashY;
+
+    @Override
+    public DataBuilder crashX(double crashX) {
+         this.crashX=crashX;
+         return this;
+    }
+
+    @Override
+    public DataBuilder crashY(double crashY) {
+        this.crashY=crashY;
+        return this;
+    }
 
     protected Collection<String> includeActions;
 

@@ -63,11 +63,9 @@ public class MapData {
         if (rows.length == 0) {
             for (List<Zombie> zombieList : this.getZombiesList()) {
                 if (zombieList.size() > 0) return true;
-
             }
             return false;
         }
-
         for (int row : rows) {
             if (row < 0 || row >= mapLawnsList.size()) continue;
             List<Zombie> zombieList = this.getZombiesList().get(row);
@@ -112,7 +110,7 @@ public class MapData {
             for (Zombie zombie : zombiesList.get(row)) {
                 for (MapLawn mapLawn : mapLawnsList.get(row)) {
                     Plant plant = mapLawn.getPlant();
-                    if(plant==null)continue;
+                    if (plant == null) continue;
 
                     if (zombie.crash(plant)) {
                         zombie.eatPlant(plant);
@@ -126,19 +124,38 @@ public class MapData {
         return result;
     }
 
+    /**
+     * todo 时间复杂度优化
+     */
     private void bulletHit() {
         int rowNum = Game.getGameMap().getMapInfo().maxRowNum();
-        for (int row = 0; row < rowNum; row++) {
-            List<Bullet> bullets = bulletsList.get(row);
-            List<Zombie> zombieList = zombiesList.get(row);
+        for (List<Bullet> bullets : bulletsList) {
             for (Bullet bullet : bullets) {
-                for (Zombie zombie : zombieList) {
-                    if (zombie.crash(bullet)) {
-                        bullet.hurt(zombie);
+                for (List<Zombie> zombieList : zombiesList) {
+                    for (Zombie zombie : zombieList) {
+                        if (zombie.crash(bullet)) {
+                            if (bullet.hurt(zombie)) {
+                                zombie.hitByBullet(bullet);
+                            }
+
+                        }
                     }
                 }
             }
+
         }
+
+//        for (int row = 0; row < rowNum; row++) {
+//            List<Bullet> bullets = bulletsList.get(row);
+//            List<Zombie> zombieList = zombiesList.get(row);
+//            for (Bullet bullet : bullets) {
+//                for (Zombie zombie : zombieList) {
+//                    if (zombie.crash(bullet)) {
+//                        bullet.hurt(zombie);
+//                    }
+//                }
+//            }
+//        }
     }
 
     public void draw() {

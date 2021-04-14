@@ -8,6 +8,11 @@ import java.util.Map;
 public interface DataBuilder {
 
 
+    DataBuilder crashX(double crashX);
+
+    DataBuilder crashY(double crashY);
+
+
     DataBuilder height(double height);
 
     DataBuilder width(double width);

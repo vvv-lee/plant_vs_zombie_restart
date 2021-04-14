@@ -48,7 +48,11 @@ public class BulletCard {
 
         private double maxSpeed;
 
+        private byte maxHitNum=(byte) 1;
+
     }
+
+
 
     static {
 
@@ -95,6 +99,10 @@ public class BulletCard {
 
     public double getMaxSpeed() {
         return config.maxSpeed;
+    }
+    public byte getMaxHitNum() {
+
+        return config.maxHitNum;
     }
 
     public AnimationData getAnimationData() {

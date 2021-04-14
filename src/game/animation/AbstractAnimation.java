@@ -177,9 +177,9 @@ public abstract class AbstractAnimation implements Animation {
     private boolean xCrash(Animation otherAnimation) {
         AnimationData otherData = otherAnimation.getAnimationData();
         Coordinate otherCoordinate = otherAnimation.getCoordinate();
-        double beginX = otherData.getBeginX() + otherCoordinate.getX();
+        double beginX = otherData.getCrashX() + otherCoordinate.getX();
         double overX = beginX + otherData.getCrashWidth();
-        double thisBeginX = coordinate.getX() + this.animationData.getBeginX();
+        double thisBeginX = coordinate.getX() + this.animationData.getCrashX();
         double thisOverX = thisBeginX + this.animationData.getCrashWidth();
         if (thisBeginX >= beginX && thisBeginX <= overX) return true;
         return thisOverX >= beginX && thisOverX <= overX;
@@ -188,9 +188,9 @@ public abstract class AbstractAnimation implements Animation {
     private boolean yCrash(Animation otherAnimation) {
         AnimationData otherData = otherAnimation.getAnimationData();
         Coordinate otherCoordinate = otherAnimation.getCoordinate();
-        double beginY = otherCoordinate.getY() - otherData.getBeginY() - otherData.getCrashHeight();
+        double beginY = otherCoordinate.getY() - otherData.getCrashY() - otherData.getCrashHeight();
         double overY = beginY + otherData.getCrashHeight();
-        double thisBeginY = coordinate.getY() - this.animationData.getBeginY() - this.animationData.getCrashHeight();
+        double thisBeginY = coordinate.getY() - this.animationData.getCrashY() - this.animationData.getCrashHeight();
         double thisOverY = thisBeginY + this.animationData.getCrashHeight();
         if (thisBeginY >= beginY && thisBeginY <= overY) return true;
         return thisOverY >= beginY && thisOverY <= overY;

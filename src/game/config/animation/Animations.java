@@ -65,6 +65,11 @@ public class Animations {
 
         private double height;
 
+
+        private double x = 0;
+
+        private double y = 0;
+
         @SerializedName("animations")
 
         private Map<String, AnimationConfig> animationConfigMap;
@@ -132,11 +137,14 @@ public class Animations {
         }
 
         public AnimationData newBaseData(DataBuilder dataBuilder) {
+    
             return dataBuilder
                     .includeActions(lessActions)
                     .includeImages(lessImages)
                     .height(height)
                     .width(width)
+                    .crashX(x)
+                    .crashY(y)
                     .build();
         }
     }

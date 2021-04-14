@@ -34,17 +34,17 @@ public class Main extends Application {
 
     private void  beforeStart(){
 
-        Iterator<PlantCard> iterator =new HashSet<>(PlantCard.cardMap.values()).iterator();
-        for (int row = 0; row < 5; row++) {
-            for (int col = 0; col < 9; col++) {
-                if (iterator.hasNext()) {
-                    PlantCard next = iterator.next();
-                    Game.getGameMap().getLawn(row, col).addPlant(next);
-//                    next.newPlant(Game.getGameMap().getLawn(row, col));
-
-                }
-            }
-        }
+//        Iterator<PlantCard> iterator =new HashSet<>(PlantCard.cardMap.values()).iterator();
+//        for (int row = 0; row < 5; row++) {
+//            for (int col = 0; col < 9; col++) {
+//                if (iterator.hasNext()) {
+//                    PlantCard next = iterator.next();
+//                    Game.getGameMap().getLawn(row, col).addPlant(next);
+////                    next.newPlant(Game.getGameMap().getLawn(row, col));
+//
+//                }
+//            }
+//        }
 
 
     }
