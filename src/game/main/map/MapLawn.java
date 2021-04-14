@@ -31,6 +31,14 @@ public class MapLawn {
 
     }
 
+    public boolean addPlant(Plant plant) {
+        this.plant = plant;
+        PlantCard plantCard = plant.plantCard();
+        plant.to(this.getY() + plantCard.getShowOffSetY(),
+                this.getX() + plantCard.getShowOffSetX());
+        return true;
+    }
+
     public boolean addPlant(PlantCard plantCard) {
         if (this.havePlant()) return false;
         this.plant = plantCard.newPlant(this);

@@ -2,6 +2,7 @@ package game.spirits;
 
 
 import game.main.Game;
+import game.resourceUtil.animation.Animation;
 import game.spirits.interfaces.Sprite;
 import game.spirits.util.Production;
 import javafx.scene.canvas.GraphicsContext;
@@ -23,6 +24,14 @@ public abstract class AbstractSprite extends BaseDraw implements Sprite {
     protected String name = this.getClass().getSimpleName();
 
     protected String action;
+
+
+    @Override
+    public void to(double y, double x) {
+        this.y = y;
+        this.x = x;
+
+    }
 
     public AbstractSprite() {
         setThisAnimation();

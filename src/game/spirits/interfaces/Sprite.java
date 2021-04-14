@@ -6,7 +6,7 @@ import game.spirits.util.Production;
 public interface Sprite extends Draw, Coordinate {
 
 
-
+    void to(double y, double x);
 
     boolean needRemove();
 

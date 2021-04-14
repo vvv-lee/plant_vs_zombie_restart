@@ -44,7 +44,7 @@ public class Glove extends ToolCard {
     }
 
     @Override
-    protected boolean effectToMap( double mouseY, double mouseX, int btn) {
+    protected boolean effectToMap(double mouseY, double mouseX, int btn) {
         MapLawn clickMapLawn = Game.getGameMap().getLawnByYX(mouseY, mouseX);
         if (!haveSelectPlant()) {
             if (clickMapLawn.havePlant()) {
@@ -55,7 +55,7 @@ public class Glove extends ToolCard {
             }
         }
         if (clickMapLawn.havePlant()) return false;
-        clickMapLawn.addPlant(this.holdMapLawn.getPlant().plantCard());
+        clickMapLawn.addPlant(this.holdMapLawn.getPlant());
         this.holdMapLawn.removePlant();
         this.holdMapLawn = null;
         return true;
@@ -63,7 +63,7 @@ public class Glove extends ToolCard {
 
 
     @Override
-    public void showInMap( double mouseY, double mouseX) {
+    public void showInMap(double mouseY, double mouseX) {
         PlantCard usePlantCard = getUsePlantCard();
         if (usePlantCard != null) {
             Game.getGameMap().getLawnByYX(mouseY, mouseX).drawImage(usePlantCard.getOpacityImage());

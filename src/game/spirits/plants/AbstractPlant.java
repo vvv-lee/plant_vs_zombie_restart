@@ -22,6 +22,12 @@ public abstract class AbstractPlant extends AbstractSprite implements Plant {
 
     protected PlantBehavior plantBehavior;
 
+    @Override
+    public void toLawn(MapLawn lawn) {
+        this.x = mapLawn.getX() + plantCard().getShowOffSetX();
+        this.y = mapLawn.getY() + plantCard().getShowOffSetY();
+    }
+
     public AbstractPlant(MapLawn mapLawn) {
         this.mapLawn = mapLawn;
         PlantCard plantCard = plantCard();
