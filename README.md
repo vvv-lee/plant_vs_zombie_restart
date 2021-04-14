@@ -8,6 +8,8 @@ java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了
 
 等下一个兴趣使然的人用unity实现，这个项目虽然实现但是动画无法完全达到原版高度，**粒子效果无法实现**
 
+有部分贴图错误以后会修正
+![image](https://user-images.githubusercontent.com/37022924/114652178-ec590e00-9d17-11eb-9b98-0915899fb62a.png)
 
 保证学过oop的都能简单的看懂代码，文档在doc文件夹中（内有双向链接）
 
