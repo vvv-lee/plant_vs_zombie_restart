@@ -19,8 +19,9 @@ java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了
 
 首先获得游戏本体[steam购买链接](https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/)
 
-
 然后下载[PvZ Toolkit](http://jspvz.com/ResDownload/Modifier.htm#lmintlcx)
+
+
 ![image](https://user-images.githubusercontent.com/37022924/114649648-7fdc1000-9d13-11eb-8a4b-d45a518805d9.png)
 
 
@@ -48,9 +49,4 @@ java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了
 
 * [ ] 随意扩展
 
-*[ ] unity重写（应该不是我）
-
-{: id="20210414111244-yxd9ap0"}
-
-
-{: id="20210414105857-nvwv5g2" type="doc"}
+* [ ] unity重写（应该不是我）
