@@ -136,7 +136,7 @@
       "main": {
         "needActions": [
           "idle",
-          "attack"
+          "shooting"
         ]
       }
     }
