@@ -102,6 +102,7 @@ public class Animations {
             for (Map.Entry<String, AnimationConfig> animationEntry : animationConfigMap.entrySet()) {
                 String name = animationEntry.getKey();
                 AnimationConfig config = animationEntry.getValue();
+
                 animationData.customAnimation(
                         cacheKey(fileKey, name), config
                 );

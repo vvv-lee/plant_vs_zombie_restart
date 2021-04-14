@@ -26,17 +26,15 @@ public class Main extends Application {
         Game.init();
 
         GameScene gameScene = Game.getGameScene();
-
         primaryStage.setScene(gameScene);
+        beforeStart();
+        start(gameScene,primaryStage);
 
+    }
 
-        primaryStage.setTitle("植物大战僵尸?    Restart");
-        primaryStage.setWidth(1416);
-        primaryStage.setHeight(638);
-        primaryStage.show();
+    private void  beforeStart(){
 
         Iterator<PlantCard> iterator =new HashSet<>(PlantCard.cardMap.values()).iterator();
-
         for (int row = 0; row < 5; row++) {
             for (int col = 0; col < 9; col++) {
                 if (iterator.hasNext()) {
@@ -49,15 +47,15 @@ public class Main extends Application {
         }
 
 
+    }
+    private void  start(GameScene gameScene,Stage primaryStage){
+        primaryStage.setTitle("植物大战僵尸?    Restart");
+        primaryStage.setWidth(1416);
+        primaryStage.setHeight(638);
+        primaryStage.show();
+
         gameScene.start(primaryStage);
 
-
-
-
-
-
-
     }
-
 
 }

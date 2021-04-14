@@ -4,8 +4,16 @@
 java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了十几种 )练习
 {: id="20210414105822-ce3ikcg"}
 
+部分植物有贴图错误，会修复
+{: id="20210414114721-0zfo215" updated="20210414114740"}
+
+![image.png](assets/image-20210414114721-gnshwgx.png)
+{: id="20210414114720-6ylt5ym" updated="20210414114721"}
+
 一开始只是想练习一下面向对象与设计模式 ，后来干脆写完了 ，javafx写的很麻烦，如果一开始就想写成这样的话绝对去学unity
 {: id="20210414105857-b4jhnyz" updated="20210414110404"}
+
+{: id="20210414114719-xgw3bmu"}
 
 等下一个兴趣使然的人用unity实现，这个项目虽然实现但是动画无法完全达到原版高度，**粒子效果无法实现**
 {: id="20210414110302-bttgcpb" updated="20210414111149"}
@@ -25,8 +33,8 @@ java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了
 然后下载[PvZ Toolkit](http://jspvz.com/ResDownload/Modifier.htm#lmintlcx)
 {: id="20210414110532-qfgfasd" updated="20210414110817"}
 
-![image.png](assets/image-20210414110945-7eyq8pz.png)
-{: id="20210414110753-q8dcdig" updated="20210414110945"}
+![image.png](assets/image-20210414114805-5hb4h1t.png)
+{: id="20210414114805-r1noh7m"}
 
 点击解包解包游戏pak文件
 {: id="20210414110949-8ae9367" updated="20210414111007"}

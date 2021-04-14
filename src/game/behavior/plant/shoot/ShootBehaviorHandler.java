@@ -14,6 +14,8 @@ public abstract class ShootBehaviorHandler implements BehaviorHandler {
 
     private Plant plant;
 
+    protected String shooting = "shooting";
+
     public ShootBehaviorHandler(Plant plant) {
         this.plant = plant;
     }
@@ -28,7 +30,7 @@ public abstract class ShootBehaviorHandler implements BehaviorHandler {
         boolean needBeginShoot = this.needBeginShoot();
         String result;
         if (needBeginShoot) {
-            result = "shooting";
+            result = shooting;
         } else {
             if (!actionIsShooting(action)) result = action;
             else result = null;
@@ -54,7 +56,7 @@ public abstract class ShootBehaviorHandler implements BehaviorHandler {
     }
 
 
-    private static boolean actionIsShooting(String nowAction) {
+    protected static boolean actionIsShooting(String nowAction) {
         return Objects.equals(nowAction, "shooting");
     }
 

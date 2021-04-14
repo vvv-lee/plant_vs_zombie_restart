@@ -1,6 +1,6 @@
 package game.spirits.interfaces;
 
-import game.config.ElementType;
+
 import game.spirits.util.ThrowStatus;
 
 public interface Recyclable extends Sprite, Click {

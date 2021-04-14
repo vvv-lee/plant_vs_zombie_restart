@@ -125,7 +125,7 @@ public class DataByJson implements AnimationData {
     ) {
 
 
-        DataByJson result = customAnimation(needActions, images, replaceMap);
+        DataByJson result = customAnimation(needActions, images, replaceMap).setKey(key);
         if (key != null) Animations.cacheMap.put(key, result);
         return result;
     }
@@ -271,14 +271,12 @@ public class DataByJson implements AnimationData {
                     + this.fragmentMap.get(action).size() + "张图片";
         }
         if (errorMsg != null) {
-//            System.out.println(fragmentMap.keySet());
             logger.error(errorMsg);
             throw new RuntimeException("校验错误" + key);
         }
     }
 
     public DataByJson setKey(String key) {
-        System.out.println(key);
         this.key = key;
         return this;
     }

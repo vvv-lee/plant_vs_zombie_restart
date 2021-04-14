@@ -57,7 +57,8 @@
     "animations": {
       "main": {
         "needActions": [
-          "idle"
+          "idle",
+          "shooting"
         ]
       }
     }
@@ -81,7 +82,10 @@
     "animations": {
       "main": {
         "needActions": [
-          "idle"
+          "idle",
+          "shooting1",
+          "shooting2",
+          "shooting3"
         ]
       }
     }
@@ -746,8 +750,8 @@
   },
   "BaseZombie": {
     "file": "json/zombie/BaseZombie.json",
-    "height": 120,
-    "width": 30,
+    "height": 130,
+    "width": 80,
     "animations": {
       "innerArm": {
         "needActions": [
@@ -865,8 +869,8 @@
   },
   "FootBallZombie": {
     "file": "json/zombie/FootBallZombie.json",
-    "height": 120,
-    "width": 30,
+    "height": 130,
+    "width": 80,
     "animations": {
       "immutable": {
         "needActions": [
@@ -961,8 +965,8 @@
   },
   "PaperZombie": {
     "file": "json/zombie/PaperZombie.json",
-    "height": 120,
-    "width": 30,
+    "height": 130,
+    "width": 80,
     "animations": {
       "immutable": {
         "needActions": [
@@ -1091,8 +1095,8 @@
   },
   "LadderZombie": {
     "file": "json/zombie/LadderZombie.json",
-    "height": 120,
-    "width": 30,
+    "height": 130,
+    "width": 80,
     "animations": {
       "immutable": {
         "needActions": [
@@ -1108,8 +1112,8 @@
   },
   "JacksonZombie": {
     "file": "json/zombie/JacksonZombie.json",
-    "height": 120,
-    "width": 100,
+    "height": 130,
+    "width": 80,
     "animations": {
       "immutable": {
         "needActions": [

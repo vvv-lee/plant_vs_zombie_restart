@@ -13,6 +13,11 @@ public class BulletDecorator implements Bullet {
     private Bullet bullet;
 
     @Override
+    public void to(double y, double x) {
+        bullet.to(y,x);
+    }
+
+    @Override
     public Bullet withBuffs(ZombieBuff zombieBuff) {
         return bullet.withBuffs(zombieBuff);
     }

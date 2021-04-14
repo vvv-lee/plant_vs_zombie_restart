@@ -21,7 +21,12 @@ public abstract class AbstractPeaShooter extends ShootPlant {
     @Override
     public void draw() {
         double[] xyOffset = singleLeaf.getXYOffset();
-        getAnimation().drawWithOffset(xyOffset[0], xyOffset[1]);
+        try {
+            getAnimation().drawWithOffset(xyOffset[0], xyOffset[1]);
+        }catch (Exception e){
+            System.out.println(this.getClass().getSimpleName());
+        }
+
         singleLeaf.draw();
     }
 

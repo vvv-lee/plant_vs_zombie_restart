@@ -47,7 +47,6 @@ public class SpriteBehavior {
         return production;
     }
     public void addBehaviorHandler(BehaviorHandler behaviorHandler){
-        System.out.println(behaviorHandler);
         if(behaviorHandler==null){
             throw new RuntimeException();
         }

@@ -181,6 +181,7 @@ public class PlantCard {
         }
 
         mainAnimationData = Animations.getByKeyAndFile(enName, imageConfig.animation);
+        System.out.println(Animations.cacheKey(enName, imageConfig.animation));
         showOffSetX = imageConfig.offSetX;
         showOffSetY = imageConfig.offSetY;
         AnimationData useData;
@@ -194,8 +195,8 @@ public class PlantCard {
         SourceRegion sourceRegion = imageConfig.sourceRegion;
         if (sourceRegion == null) sourceRegion = SourceRegion.defaultRegion;
         this.plantImage = useData.buildOneFrameImage(
-               imageConfig.action, imageConfig.frameNum, sourceRegion.x, sourceRegion.y,
-                sourceRegion.width, sourceRegion.height,null
+                imageConfig.action, imageConfig.frameNum, sourceRegion.x, sourceRegion.y,
+                sourceRegion.width, sourceRegion.height, null
         );
 
         this.cardImage = buildCardImage(plantImage, rarity, sunPower, imageConfig.cardConfig);
