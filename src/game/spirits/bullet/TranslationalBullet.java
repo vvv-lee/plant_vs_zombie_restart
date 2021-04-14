@@ -2,8 +2,8 @@ package game.spirits.bullet;
 
 import game.config.animation.Animations;
 import game.config.bullect.BulletCard;
-import game.resourceUtil.animation.Animation;
-import game.resourceUtil.animation.SingleAnimation;
+import game.animation.Animation;
+import game.animation.SingleAnimation;
 import game.spirits.MoveSprite;
 import game.spirits.interfaces.Bullet;
 import game.spirits.interfaces.Zombie;

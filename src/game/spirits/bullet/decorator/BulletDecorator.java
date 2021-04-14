@@ -1,6 +1,6 @@
 package game.spirits.bullet.decorator;
 
-import game.resourceUtil.animation.Animation;
+import game.animation.Animation;
 import game.spirits.interfaces.Bullet;
 import game.spirits.interfaces.Zombie;
 import game.spirits.util.Production;

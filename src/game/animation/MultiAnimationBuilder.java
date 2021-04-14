@@ -1,8 +1,7 @@
-package game.resourceUtil.animation;
+package game.animation;
 
 import game.config.animation.Animations;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Coordinate;
 
 import java.util.HashMap;

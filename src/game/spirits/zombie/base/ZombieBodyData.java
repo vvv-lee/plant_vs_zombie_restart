@@ -1,8 +1,7 @@
 package game.spirits.zombie.base;
 
 import com.google.common.collect.ImmutableSortedMap;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Protective;
 
 import java.util.*;

@@ -2,12 +2,11 @@ package game.resourceUtil;
 
 import com.google.gson.JsonObject;
 import game.main.Game;
-import game.resourceUtil.animation.OffSetDto;
+import game.animation.OffSetDto;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import javafx.scene.transform.Affine;
-import net.coobird.thumbnailator.Thumbnails;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;

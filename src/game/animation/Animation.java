@@ -1,6 +1,6 @@
-package game.resourceUtil.animation;
+package game.animation;
 
-import game.resourceUtil.animation.data.AnimationData;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Coordinate;
 
 

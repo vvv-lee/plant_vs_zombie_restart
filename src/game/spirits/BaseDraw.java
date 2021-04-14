@@ -1,8 +1,7 @@
 package game.spirits;
 
-import game.resourceUtil.animation.Animation;
+import game.animation.Animation;
 import game.spirits.interfaces.Draw;
-import javafx.scene.canvas.GraphicsContext;
 
 public abstract class BaseDraw implements Draw {
 

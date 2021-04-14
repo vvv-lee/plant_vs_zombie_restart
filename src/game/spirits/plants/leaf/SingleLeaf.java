@@ -1,10 +1,9 @@
 package game.spirits.plants.leaf;
 
 import game.config.animation.Animations;
-import game.resourceUtil.animation.AbstractAnimation;
+import game.animation.AbstractAnimation;
 
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Plant;
 
 

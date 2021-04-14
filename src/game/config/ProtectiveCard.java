@@ -7,8 +7,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import game.config.animation.Animations;
 import game.resourceUtil.JsonUtil;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.AnimationData;
 import game.spirits.protective.ZombieProtective;
 
 import java.util.*;

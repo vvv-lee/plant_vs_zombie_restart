@@ -1,18 +1,11 @@
 package game.spirits.bullet;
 
-import game.config.bullect.BulletCard;
 import game.main.Game;
 import game.main.map.GameMap;
-import game.resourceUtil.animation.Animation;
-import game.spirits.interfaces.Bullet;
-import game.spirits.interfaces.Coordinate;
+import game.animation.Animation;
 import game.spirits.interfaces.Zombie;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.transform.Affine;
 
 
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.util.List;
 
 public class BulletLock {

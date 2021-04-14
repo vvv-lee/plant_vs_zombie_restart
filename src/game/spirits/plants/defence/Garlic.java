@@ -2,8 +2,8 @@ package game.spirits.plants.defence;
 
 import com.google.common.collect.ImmutableSortedMap;
 import game.main.map.MapLawn;
-import game.resourceUtil.animation.MultiAnimation;
-import game.resourceUtil.animation.MultiAnimationBuilder;
+import game.animation.MultiAnimation;
+import game.animation.MultiAnimationBuilder;
 
 public class Garlic extends AbstractDefence {
     private static final String health = "garlic-main";

@@ -1,4 +1,4 @@
-//package game.resourceUtil.animation.data;
+//package game.animation.data;
 //
 //import game.config.animation.AnimationConfig;
 //import game.resourceUtil.Fragment;

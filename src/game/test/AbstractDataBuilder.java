@@ -1,6 +1,6 @@
 package game.test;
 
-import game.resourceUtil.animation.data.AnimationData;
+import game.animation.data.AnimationData;
 
 import java.util.Collection;
 import java.util.Map;

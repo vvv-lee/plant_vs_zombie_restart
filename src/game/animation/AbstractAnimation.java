@@ -1,8 +1,7 @@
-package game.resourceUtil.animation;
+package game.animation;
 
 import game.main.Game;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.AnimationDrawUtil;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Coordinate;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.transform.Affine;

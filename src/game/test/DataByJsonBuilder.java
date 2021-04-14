@@ -7,9 +7,9 @@
 //import game.config.animation.Animations;
 //import game.resourceUtil.Fragment;
 //import game.resourceUtil.Resources;
-//import game.resourceUtil.animation.data.AnimationData;
-//import game.resourceUtil.animation.data.builder.DataBuilder;
-//import game.resourceUtil.animation.data.DataByJson;
+//import game.animation.data.AnimationData;
+//import game.animation.data.builder.DataBuilder;
+//import game.animation.data.DataByJson;
 //
 //import java.io.FileNotFoundException;
 //import java.io.FileReader;

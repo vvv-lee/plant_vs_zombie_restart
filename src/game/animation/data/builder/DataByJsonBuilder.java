@@ -1,4 +1,4 @@
-package game.resourceUtil.animation.data.builder;
+package game.animation.data.builder;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -6,8 +6,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import game.resourceUtil.Fragment;
 import game.resourceUtil.Resources;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.DataByJson;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -24,8 +23,6 @@ public class DataByJsonBuilder extends AbstractDataBuilder {
 
     public DataByJsonBuilder(String cacheKey, String path) {
         super(cacheKey, path);
-        System.out.println(cacheKey);
-        System.out.println(path);
     }
 
     public static DataByJsonBuilder newBuilder(String cacheKey, String path) {

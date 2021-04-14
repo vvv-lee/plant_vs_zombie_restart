@@ -5,9 +5,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.annotations.SerializedName;
 import game.resourceUtil.JsonUtil;
-import game.resourceUtil.animation.data.*;
-import game.resourceUtil.animation.data.builder.DataBuilder;
-import game.resourceUtil.animation.data.builder.DataByJsonBuilder;
+import game.animation.data.*;
+import game.animation.data.builder.DataBuilder;
+import game.animation.data.builder.DataByJsonBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -87,7 +87,7 @@ public class Animations {
             if (eName.equals("json")) {
                 return new DataByJsonBuilder(file);
             } else {
-                //coming soon
+                //康明孙
                 throw new RuntimeException("现在不支持 原生Reanim文件");
 //                return new DataByReanimBuilder(file);
             }

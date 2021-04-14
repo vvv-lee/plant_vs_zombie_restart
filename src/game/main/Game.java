@@ -1,17 +1,12 @@
 package game.main;
 
 import game.cards.Card;
-import game.config.PlantCard;
 import game.config.animation.Animations;
 import game.main.map.BaseNightMap;
 import game.main.map.GameMap;
 import game.resourceUtil.Resources;
-import game.resourceUtil.animation.Animation;
 import javafx.scene.Cursor;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
-
-import java.util.Iterator;
 
 public class Game {
 

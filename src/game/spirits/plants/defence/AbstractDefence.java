@@ -2,8 +2,8 @@ package game.spirits.plants.defence;
 
 import com.google.common.collect.ImmutableSortedMap;
 import game.main.map.MapLawn;
-import game.resourceUtil.animation.Animation;
-import game.resourceUtil.animation.MultiAnimation;
+import game.animation.Animation;
+import game.animation.MultiAnimation;
 import game.spirits.plants.AbstractPlant;
 
 import java.util.Map;

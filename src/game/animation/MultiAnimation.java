@@ -1,13 +1,12 @@
-package game.resourceUtil.animation;
+package game.animation;
 
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
-import game.resourceUtil.animation.data.MultiAnimationData;
+import game.animation.data.AnimationData;
+import game.animation.data.DataByJson;
+import game.animation.data.MultiAnimationData;
 import game.spirits.interfaces.Coordinate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.naming.LinkLoopException;
 import java.util.LinkedList;
 import java.util.Map;
 

@@ -5,7 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import game.config.animation.Animations;
 import game.resourceUtil.JsonUtil;
-import game.resourceUtil.animation.data.AnimationData;
+import game.animation.data.AnimationData;
 import game.spirits.bullet.LockBullet;
 import game.spirits.bullet.TranslationalBullet;
 import game.spirits.interfaces.Coordinate;

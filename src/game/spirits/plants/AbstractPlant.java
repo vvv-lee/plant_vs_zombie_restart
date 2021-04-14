@@ -2,7 +2,7 @@ package game.spirits.plants;
 
 import game.config.PlantCard;
 import game.main.map.MapLawn;
-import game.resourceUtil.animation.Animation;
+import game.animation.Animation;
 import game.spirits.AbstractSprite;
 import game.spirits.interfaces.Plant;
 import game.spirits.interfaces.Zombie;
@@ -22,11 +22,7 @@ public abstract class AbstractPlant extends AbstractSprite implements Plant {
 
     protected PlantBehavior plantBehavior;
 
-    @Override
-    public void toLawn(MapLawn lawn) {
-        this.x = mapLawn.getX() + plantCard().getShowOffSetX();
-        this.y = mapLawn.getY() + plantCard().getShowOffSetY();
-    }
+
 
     public AbstractPlant(MapLawn mapLawn) {
         this.mapLawn = mapLawn;

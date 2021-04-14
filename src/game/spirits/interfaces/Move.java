@@ -1,6 +1,6 @@
 package game.spirits.interfaces;
 
-public interface Move {
+public interface Move extends Sprite {
 
     double getXSpeed();
 
@@ -10,6 +10,8 @@ public interface Move {
 
     void setYSpeed(double ySpeed);
 
-    void move();
+    default void move() {
+        this.to(this.getY() + this.getYSpeed(), this.getX() + this.getXSpeed());
+    }
 
 }

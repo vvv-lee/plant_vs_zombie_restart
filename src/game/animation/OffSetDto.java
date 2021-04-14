@@ -1,4 +1,4 @@
-package game.resourceUtil.animation;
+package game.animation;
 
 public class OffSetDto {
     private double minX;

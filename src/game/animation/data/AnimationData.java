@@ -1,13 +1,9 @@
-package game.resourceUtil.animation.data;
+package game.animation.data;
 
 import game.config.animation.AnimationConfig;
-import game.resourceUtil.Fragment;
 import javafx.scene.image.Image;
 
-import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 

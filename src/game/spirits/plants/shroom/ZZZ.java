@@ -2,9 +2,8 @@ package game.spirits.plants.shroom;
 
 import game.config.animation.Animations;
 import game.main.Game;
-import game.resourceUtil.animation.AbstractAnimation;
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.AbstractAnimation;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Coordinate;
 
 

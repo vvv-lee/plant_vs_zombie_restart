@@ -2,7 +2,7 @@ package game.spirits.plants.defence;
 
 import com.google.common.collect.ImmutableSortedMap;
 import game.main.map.MapLawn;
-import game.resourceUtil.animation.*;
+import game.animation.*;
 
 public class WallNut extends AbstractDefence {
 

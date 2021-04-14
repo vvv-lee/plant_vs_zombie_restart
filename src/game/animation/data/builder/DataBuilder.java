@@ -1,7 +1,6 @@
-package game.resourceUtil.animation.data.builder;
+package game.animation.data.builder;
 
-import game.resourceUtil.animation.data.AnimationData;
-import game.resourceUtil.animation.data.DataByJson;
+import game.animation.data.DataByJson;
 
 import java.util.Collection;
 import java.util.Map;

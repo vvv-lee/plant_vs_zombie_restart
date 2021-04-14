@@ -6,14 +6,10 @@ import game.spirits.util.Production;
 public abstract class MoveSprite extends AbstractSprite implements Move {
 
 
-
     protected double xSpeed = 0;
     protected double ySpeed = 0;
 
-    public void move() {
-        this.setX(this.getX() + this.getXSpeed());
-        this.setY(this.getY() + this.getYSpeed());
-    }
+
 
     @Override
     protected Production doAction() {

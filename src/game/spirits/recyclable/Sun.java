@@ -2,7 +2,7 @@ package game.spirits.recyclable;
 
 import game.config.BaseBuff;
 import game.config.animation.Animations;
-import game.resourceUtil.animation.SingleAnimation;
+import game.animation.SingleAnimation;
 import game.spirits.interfaces.Coordinate;
 import game.spirits.interfaces.Recyclable;
 

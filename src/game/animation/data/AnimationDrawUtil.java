@@ -1,17 +1,12 @@
-package game.resourceUtil.animation.data;
+package game.animation.data;
 
-import com.google.common.collect.Collections2;
-import com.google.common.collect.Lists;
 import game.main.Game;
 import game.resourceUtil.Fragment;
-import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.*;
-import java.util.List;
 
 public class AnimationDrawUtil {
 

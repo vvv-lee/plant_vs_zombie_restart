@@ -2,12 +2,10 @@ package game.spirits;
 
 
 import game.main.Game;
-import game.resourceUtil.animation.Animation;
 import game.spirits.interfaces.Sprite;
 import game.spirits.util.Production;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.effect.ColorAdjust;
-import javafx.scene.transform.Affine;
 
 import java.util.*;
 

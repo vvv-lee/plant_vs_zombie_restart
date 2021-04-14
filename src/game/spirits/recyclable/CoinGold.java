@@ -1,6 +1,6 @@
 //package game.spirits.recyclable;
 //
-//import game.resourceUtil.animation.Animation;
+//import game.animation.Animation;
 //import game.spirits.interfaces.Lawn;
 //
 //public class CoinGold extends Money {

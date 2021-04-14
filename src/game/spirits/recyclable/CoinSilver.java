@@ -2,8 +2,8 @@ package game.spirits.recyclable;
 
 
 import game.config.animation.Animations;
-import game.resourceUtil.animation.Animation;
-import game.resourceUtil.animation.SingleAnimation;
+import game.animation.Animation;
+import game.animation.SingleAnimation;
 
 public class CoinSilver extends Money {
     public CoinSilver(double y, double x) {

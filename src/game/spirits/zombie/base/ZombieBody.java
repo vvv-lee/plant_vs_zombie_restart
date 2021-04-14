@@ -1,8 +1,8 @@
 package game.spirits.zombie.base;
 
 import game.config.zombie.ZombieCard;
-import game.resourceUtil.animation.AbstractAnimation;
-import game.resourceUtil.animation.data.AnimationData;
+import game.animation.AbstractAnimation;
+import game.animation.data.AnimationData;
 import game.spirits.interfaces.Bullet;
 import game.spirits.interfaces.Health;
 import game.spirits.interfaces.Protective;

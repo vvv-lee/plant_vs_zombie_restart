@@ -1,6 +1,6 @@
 package game.spirits.interfaces;
 
-import game.resourceUtil.animation.Animation;
+import game.animation.Animation;
 import game.spirits.util.Production;
 
 public interface Sprite extends Draw, Coordinate {
