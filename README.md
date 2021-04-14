@@ -42,7 +42,7 @@ java植物大战僵尸 面向对象oop与设计模式design-pattern(大概用了
 
 * [ ] restart模式（rouge）
 
-* {: id="20210414111306-mmrlegj"}[ ] 所有植物
+* [ ] 所有植物
 
 * [ ] 所有僵尸
 
