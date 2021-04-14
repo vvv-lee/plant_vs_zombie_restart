@@ -181,7 +181,6 @@ public class PlantCard {
         }
 
         mainAnimationData = Animations.getByKeyAndFile(enName, imageConfig.animation);
-        System.out.println(Animations.cacheKey(enName, imageConfig.animation));
         showOffSetX = imageConfig.offSetX;
         showOffSetY = imageConfig.offSetY;
         AnimationData useData;
