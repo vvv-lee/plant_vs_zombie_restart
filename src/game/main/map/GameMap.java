@@ -15,7 +15,6 @@ import java.util.List;
 public interface GameMap {
 
 
-
     Card click(double y, double x, int btn);
 
     default MapLawn getLawn(int row, int col) {
@@ -27,7 +26,6 @@ public interface GameMap {
         int col = MapUtil.getCol(getTerrainName(), x);
         return getMapLawnList().get(row).get(col);
     }
-
 
 
     Cursor mouseMoveWithCard(Card selectCard, double mouseY, double mouseX);
@@ -43,8 +41,7 @@ public interface GameMap {
 
     boolean addPlant(PlantCard plantCard, int rowNum, int colNum);
 
-    void addZombie(Zombie zombie);
-
+    void addZombie(int row, Zombie zombie);
 
 
     boolean isNight();

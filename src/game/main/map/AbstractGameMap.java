@@ -94,8 +94,8 @@ public abstract class AbstractGameMap implements DefaultGameMap {
     }
 
     @Override
-    public void addZombie(Zombie zombie) {
-
+    public void addZombie(int row, Zombie zombie) {
+        getZombieQueueList().get(row).add(zombie);
     }
 
     @Override

@@ -4,9 +4,15 @@ import game.cards.Card;
 import game.config.animation.Animations;
 import game.main.map.BaseNightMap;
 import game.main.map.GameMap;
+import game.main.mission.Mission;
+import game.main.mission.Mission1;
+import game.main.mission.factory.ZombieFactory;
 import game.resourceUtil.Resources;
+import game.spirits.interfaces.Zombie;
 import javafx.scene.Cursor;
 import javafx.scene.canvas.GraphicsContext;
+
+import java.util.List;
 
 public class Game {
 
@@ -20,6 +26,8 @@ public class Game {
     protected int lastDrawFrame = -1;
 
     protected Card selectCard;
+
+    protected Mission mission;
 
 
     protected GraphicsContext graphicsContext;
@@ -59,7 +67,7 @@ public class Game {
         this.graphicsContext = gameScene.getDrawCanvasCanvas().getGraphicsContext2D();
         Game.gameCards = new GameCards();
         gameMap = new BaseNightMap();
-
+        this.mission = new Mission1();
 
 
 //        for (PlantCard value : PlantCard.cardMap.values()) {
@@ -80,7 +88,12 @@ public class Game {
     protected void update() {
         gameMap.update();
         gameCards.update();
-
+        List<List<Zombie>> newZombieList = mission.newZombie();
+        for (int row = 0; row < newZombieList.size(); row++) {
+            for (Zombie zombie : newZombieList.get(row)) {
+                gameMap.addZombie(row, zombie);
+            }
+        }
     }
 
     protected void prepareNextFrame() {

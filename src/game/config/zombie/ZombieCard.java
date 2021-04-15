@@ -76,12 +76,13 @@ public class ZombieCard {
 
     public static ZombieCard zombieCard(String name) {
 
-
-        return zombieCardMap.get(name.toLowerCase());
+        ZombieCard result = zombieCardMap.get(name.toLowerCase());
+        if (result == null) throw new RuntimeException("没有改僵尸" + name);
+        return result;
     }
 
     public static Zombie newZombie(String name, double y, double x) {
-        return zombieCardMap.get(name.toLowerCase()).newZombie(y, x);
+        return zombieCard(name.toLowerCase()).newZombie(y, x);
 
     }
 

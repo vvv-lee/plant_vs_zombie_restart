@@ -20,6 +20,11 @@ public class Sun extends AbstractRecycle implements Recyclable {
         this.setAction("idle");
     }
 
+    public void fallDown() {
+        this.ySpeed = 5;
+
+    }
+
 
     @Override
     public int getValue() {
