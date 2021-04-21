@@ -82,7 +82,6 @@ public class AbstractZombie extends MoveSprite implements Zombie {
     protected void update() {
         String newAction = zombieBehavior.updateBehavior();
         if (newAction.indexOf("attack") == 0) {
-            System.out.println(newAction);
             int row = (int) newAction.charAt(7) - '0';
             int col = (int) newAction.charAt(9) - '0';
             eatPlant(Game.getGameMap().getLawn(row, col).getPlant());
@@ -115,9 +114,7 @@ public class AbstractZombie extends MoveSprite implements Zombie {
 
     @Override
     public boolean needRemove() {
-        System.out.println(getAnimation().nowAction().equals("die"));
-        System.out.println( zombieBody.getHp());
-        System.out.println( getAnimation().preciseLastFrame());
+ 
         return zombieBody.getHp() <= 0
                 && getAnimation().nowAction().equals("die")
                 && getAnimation().preciseLastFrame();
