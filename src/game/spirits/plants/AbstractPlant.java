@@ -6,7 +6,7 @@ import game.animation.Animation;
 import game.spirits.AbstractSprite;
 import game.spirits.interfaces.Plant;
 import game.spirits.interfaces.Zombie;
-import game.behavior.plant.base.AbstractBaseBehaviorHandler;
+import game.behavior.plant.base.AbstractPlantBehaviorHandler;
 import game.behavior.PlantBehavior;
 import game.behavior.plant.ProduceBehaviorHandler;
 import game.behavior.plant.shoot.ShootBehaviorHandler;
@@ -57,7 +57,7 @@ public abstract class AbstractPlant extends AbstractSprite implements Plant {
 
     }
 
-    protected void addBaseBehavior(AbstractBaseBehaviorHandler baseBehavior) {
+    protected void addBaseBehavior(AbstractPlantBehaviorHandler baseBehavior) {
         plantBehavior.addBehaviorHandler(baseBehavior);
     }
 

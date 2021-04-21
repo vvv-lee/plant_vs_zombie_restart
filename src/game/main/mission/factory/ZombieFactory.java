@@ -144,9 +144,6 @@ public class ZombieFactory {
         return rowWeightMap;
     }
 
-    public static void main(String[] args) {
-        Game.init();
-    }
 
 
 }

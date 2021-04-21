@@ -1,5 +1,7 @@
 package game.spirits.zombie;
 
+import game.behavior.ZombieBehavior;
+import game.behavior.zombie.base.ZombieBaseBehavior;
 import game.config.ProtectiveCard;
 import game.config.zombie.ZombieAction;
 import game.main.Game;
@@ -19,11 +21,17 @@ public class AbstractZombie extends MoveSprite implements Zombie {
 
     private ZombieBody zombieBody;
 
+    private ZombieBehavior zombieBehavior;
+
 
     public AbstractZombie(double y, double x) {
         this.y = y;
         this.x = x;
         this.newAction(ZombieAction.move);
+        zombieBehavior = new ZombieBehavior(this);
+        zombieBehavior.addBehaviorHandler(
+                new ZombieBaseBehavior(this)
+        );
     }
 
     @Override
@@ -40,8 +48,7 @@ public class AbstractZombie extends MoveSprite implements Zombie {
     }
 
     @Override
-    public boolean crashBullet(Bullet bullet)
-    {
+    public boolean crashBullet(Bullet bullet) {
 
         return crash(bullet);
     }
@@ -73,21 +80,17 @@ public class AbstractZombie extends MoveSprite implements Zombie {
 
     @Override
     protected void update() {
-        MapInfo mapInfo = Game.getGameMap().getMapInfo();
-        int row = mapInfo.rowByY(getY());
-        List<MapLawn> mapLawns = Game.getGameMap().getMapData().getMapLawnsList().get(row);
-        boolean needEat = false;
-        for (MapLawn mapLawn : mapLawns) {
-            Plant plant = mapLawn.getPlant();
-            if (plant != null && crash(plant)) {
-                eatPlant(plant);
-                needEat = true;
-            }
+        String newAction = zombieBehavior.updateBehavior();
+        if (newAction.indexOf("attack") == 0) {
+            System.out.println(newAction);
+            int row = (int) newAction.charAt(7) - '0';
+            int col = (int) newAction.charAt(9) - '0';
+            eatPlant(Game.getGameMap().getLawn(row, col).getPlant());
+            newAction = "attack";
         }
-        if (!needEat) {
-            this.newAction(ZombieAction.move);
-        }
+        this.setAction(newAction);
     }
+
 
     @Override
     public double getXSpeed() {
@@ -112,6 +115,11 @@ public class AbstractZombie extends MoveSprite implements Zombie {
 
     @Override
     public boolean needRemove() {
-        return false;
+        System.out.println(getAnimation().nowAction().equals("die"));
+        System.out.println( zombieBody.getHp());
+        System.out.println( getAnimation().preciseLastFrame());
+        return zombieBody.getHp() <= 0
+                && getAnimation().nowAction().equals("die")
+                && getAnimation().preciseLastFrame();
     }
 }

@@ -55,6 +55,7 @@ public abstract class AbstractProtective implements Protective {
         else {
             result = attack - hp;
             hp = 0;
+            return result;
         }
         statusUpdate();
         return result;

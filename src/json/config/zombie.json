@@ -1,6 +1,6 @@
 {
-  "ConeZombie": {
-    "hp": 1000,
+  "BucketZombie": {
+    "hp": 100,
     "animationKey": "baseZombie",
     "file": "json/zombie/BaseZombie.json",
     "actionMapping": {
@@ -30,9 +30,54 @@
         "minHp": 0,
         "animations": [
           "innerArm",
-          "head",
           "immutable",
-          "brokenOutArm"
+          "brokenOutArm",
+          "head"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "innerArm",
+          "immutable"
+        ]
+      }
+    }
+  },
+  "ConeZombie": {
+    "hp": 100,
+    "animationKey": "baseZombie",
+    "file": "json/zombie/BaseZombie.json",
+    "actionMapping": {
+      "move": [
+        "walk",
+        "walk2"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death",
+        "death2"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "innerArm",
+          "immutable",
+          "head",
+          "outArm"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "innerArm",
+          "immutable",
+          "brokenOutArm",
+          "head"
         ]
       },
       "died": {
@@ -243,6 +288,48 @@
     "animationKey": "JackBoxZombie",
     "file": "json/zombie/JackBoxZombie.json",
     "actionMapping": {
+      "move": [
+        "walk"
+      ],
+      "attack": [
+        "eat"
+      ],
+      "die": [
+        "death"
+      ]
+    },
+    "status": {
+      "health": {
+        "minHp": 0.5,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "broken ": {
+        "minHp": 0,
+        "animations": [
+          "immutable"
+        ]
+      },
+      "died": {
+        "minHp": -114514,
+        "animations": [
+          "immutable"
+        ]
+      }
+    }
+  },
+  "PoleVaulterZombie": {
+    "hp": 1000,
+    "animationKey": "PoleVaulterZombie",
+    "file": "json/zombie/PoleVaulterZombie.json",
+    "actionMapping": {
+      "jump": [
+        "jump"
+      ],
+      "run": [
+        "run"
+      ],
       "move": [
         "walk"
       ],

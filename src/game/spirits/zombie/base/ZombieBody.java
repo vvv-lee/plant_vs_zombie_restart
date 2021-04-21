@@ -18,6 +18,7 @@ public class ZombieBody extends AbstractAnimation implements Health {
 
     private double hp;
     private double maxHp;
+    private String realAction;
 
     private List<Protective> protectives = new ArrayList<>();
 
@@ -27,9 +28,6 @@ public class ZombieBody extends AbstractAnimation implements Health {
     private List<AnimationData> showDataList = new ArrayList<>();
 
     private Map<String, String> actionMapping;
-
-
-
 
 
     public ZombieBody(Zombie zombie) {
@@ -79,12 +77,17 @@ public class ZombieBody extends AbstractAnimation implements Health {
 
     @Override
     public void newAction(String action) {
-        if(actionMapping.get(action)==null){
-            throw new RuntimeException("没有行为"+action+"只有"+actionMapping.keySet());
+        if (actionMapping.get(action) == null) {
+            throw new RuntimeException("没有行为" + action + "只有" + actionMapping.keySet());
         }
+        this.realAction = action;
         super.newAction(actionMapping.get(action));
     }
 
+    @Override
+    public String nowAction() {
+        return realAction;
+    }
 
     @Override
     public void draw() {
@@ -95,7 +98,7 @@ public class ZombieBody extends AbstractAnimation implements Health {
     @Override
     public void drawWithOffset(double offSetX, double offSetY) {
         for (AnimationData data : showDataList) {
-            data.draw( nowAction, getRealPicFrameNum(),
+            data.draw(nowAction, getRealPicFrameNum(),
                     coordinate.getX() + offSetX,
                     coordinate.getY() + offSetY);
         }
@@ -107,23 +110,36 @@ public class ZombieBody extends AbstractAnimation implements Health {
         return hp;
     }
 
-
-
-//    default boolean xCrash(TetragonumCrash crash) {
-//        if (crash.getCrashX() > getCrashX()) {
-//            return crash.getCrashX() - crash.getCrashWidth() <= getCrashX() + getCrashWidth();
-//        } else {
-//            return getCrashX() - getCrashWidth() <= crash.getCrashX() + crash.getCrashWidth();
-//        }
-//    }
+//    class FallDown {
+//        AnimationData animationData;
+//        private String nowAction;
+//        private int realPicFrameNum;
 //
-//    default boolean yCrash(TetragonumCrash crash) {
-//        if (crash.getCrashY() > getCrashY()) {
-//            return crash.getCrashY() - crash.getCrashHeight() <= getCrashY() + getCrashHeight();
-//        } else {
-//            return getCrashY() - getCrashHeight() <= crash.getCrashY() + crash.getCrashHeight();
+//
+//        double ySpeed;
+//        double xSpeed;
+//        double fallHeight;
+//
+//        public FallDown(AnimationData animationData, double ySpeed, double xSpeed, double fallHeight) {
+//            this.animationData = animationData;
+//            this.ySpeed = ySpeed;
+//            this.xSpeed = xSpeed;
+//            this.fallHeight = fallHeight;
+//        }
+//
+//        public void update() {
+//
+//
+//        }
+//
+//        public void drawWithOffset(double offSetX, double offSetY) {
+//            var coordinate = ZombieBody.this.coordinate;
+//
+//            animationData.d
+//            draw();
 //        }
 //    }
+
 
 }
 

@@ -1,11 +1,6 @@
 package game.behavior;
 
-import game.behavior.plant.BehaviorHandler;
 import game.spirits.interfaces.Plant;
-import game.spirits.util.Production;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class PlantBehavior extends SpriteBehavior {

@@ -2,7 +2,7 @@ package game.behavior.plant.base;
 
 import game.main.Game;
 
-public abstract class ShroomBehavior extends AbstractBaseBehaviorHandler {
+public abstract class ShroomBehavior extends AbstractPlantBehaviorHandler {
 
     @Override
     public boolean canUpdate(String oldAction) {

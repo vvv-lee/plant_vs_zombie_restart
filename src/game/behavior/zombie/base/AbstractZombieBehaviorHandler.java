@@ -1,9 +1,10 @@
-package game.behavior.plant.base;
+package game.behavior.zombie.base;
 
-import game.behavior.plant.BehaviorHandler;
+import game.behavior.BehaviorHandler;
 import game.spirits.util.Production;
 
-public abstract class AbstractBaseBehaviorHandler implements BehaviorHandler {
+public abstract class AbstractZombieBehaviorHandler implements BehaviorHandler {
+
     @Override
     public abstract boolean canUpdate(String action);
 

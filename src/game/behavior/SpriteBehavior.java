@@ -1,7 +1,5 @@
 package game.behavior;
 
-import game.behavior.plant.BehaviorHandler;
-import game.spirits.interfaces.Plant;
 import game.spirits.interfaces.Sprite;
 import game.spirits.util.Production;
 

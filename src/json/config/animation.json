@@ -778,9 +778,7 @@
           "eat"
         ],
         "fragments": [
-          "zombie_outerarm_lower",
-          "zombie_outerarm_upper",
-          "zombie_outerarm_hand"
+          "zombie_outerarm_upper"
         ],
         "replace": {
           "zombie_outerarm_upper": "zombie_outerarm_upper1"
@@ -865,6 +863,43 @@
         ],
         "replace": {
           "zombie_cone1": "zombie_cone3"
+        }
+      },
+
+      "healthBucket": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_bucket1"
+        ]
+      },
+      "brokenBucket": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_bucket1"
+        ],
+        "replace": {
+          "zombie_bucket1": "zombie_bucket2"
+        }
+      },
+      "veryBrokenBucket": {
+        "needActions": [
+          "walk",
+          "walk2",
+          "eat"
+        ],
+        "fragments": [
+          "zombie_bucket1"
+        ],
+        "replace": {
+          "zombie_bucket1": "zombie_bucket3"
         }
       }
     }
@@ -1151,6 +1186,25 @@
           "pop",
           "eat",
           "death"
+        ]
+      }
+    }
+  },
+  "PoleVaulterZombie": {
+    "file": "json/zombie/PoleVaulterZombie.json",
+    "height": 130,
+    "width": 45,
+    "x": 35,
+    "y": 0,
+    "animations": {
+      "immutable": {
+        "needActions": [
+          "idle",
+          "walk",
+          "run",
+          "jump",
+          "death",
+          "attack"
         ]
       }
     }

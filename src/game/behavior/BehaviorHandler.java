@@ -1,4 +1,4 @@
-package game.behavior.plant;
+package game.behavior;
 
 import game.spirits.util.Production;
 

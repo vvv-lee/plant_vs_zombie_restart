@@ -1,6 +1,6 @@
 package game.behavior.plant;
 
-import game.behavior.plant.BehaviorHandler;
+import game.behavior.BehaviorHandler;
 import game.main.map.GameMap;
 import game.spirits.interfaces.Recyclable;
 

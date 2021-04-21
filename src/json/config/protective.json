@@ -1,6 +1,6 @@
 {
   "cone": {
-    "hp": 1000,
+    "hp": 50,
     "animationKey": "baseZombie",
     "status": {
       "health": {
@@ -23,8 +23,32 @@
       }
     }
   },
+  "bucket": {
+    "hp": 50,
+    "animationKey": "baseZombie",
+    "status": {
+      "health": {
+        "minHp": 0.667,
+        "animations": [
+          "healthBucket"
+        ]
+      },
+      "broken ": {
+        "minHp": 0.33,
+        "animations": [
+          "brokenBucket"
+        ]
+      },
+      "veryBroken ": {
+        "minHp": 0,
+        "animations": [
+          "veryBrokenBucket"
+        ]
+      }
+    }
+  },
   "helmet": {
-    "hp": 1000,
+    "hp": 100,
     "animationKey": "footBallZombie",
     "status": {
       "health": {

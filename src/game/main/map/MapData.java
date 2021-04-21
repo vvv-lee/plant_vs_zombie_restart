@@ -83,6 +83,7 @@ public class MapData {
             if (lawn.havePlant()) newProduction.addOtherProduction(lawn.getPlant().doActionAndUpdate());
         }));
         bulletsList.forEach(list -> list.forEach(bullet -> newProduction.addOtherProduction(bullet.doActionAndUpdate())));
+        zombiesList.forEach(list -> list.forEach(Zombie::doActionAndUpdate));
 
         recyclableList.forEach(recyclable -> newProduction.addOtherProduction(recyclable.doActionAndUpdate()));
 
@@ -94,8 +95,7 @@ public class MapData {
         recyclableList.removeIf(Sprite::needRemove);
         mapLawnsList.forEach(list -> list.forEach(MapLawn::removePlantIfNeed));
         bulletsList.forEach(list -> list.removeIf(Bullet::needRemove));
-        zombiesList.forEach(list -> list.forEach(Zombie::doActionAndUpdate));
-
+        zombiesList.forEach(list -> list.removeIf(Zombie::needRemove));
 
         MapInfo mapInfo = Game.getGameMap().getMapInfo();
         recyclableList.addAll(newProduction.getRecyclableList());
@@ -106,19 +106,6 @@ public class MapData {
             bulletList.sort(Comparator.comparing(Bullet::getX));
         }
 
-        for (int row = 0; row < mapInfo.maxRowNum(); row++) {
-            for (Zombie zombie : zombiesList.get(row)) {
-                for (MapLawn mapLawn : mapLawnsList.get(row)) {
-                    Plant plant = mapLawn.getPlant();
-                    if (plant == null) continue;
-
-                    if (zombie.crash(plant)) {
-                        zombie.eatPlant(plant);
-                    }
-                }
-
-            }
-        }
 
         bulletHit();
         return result;

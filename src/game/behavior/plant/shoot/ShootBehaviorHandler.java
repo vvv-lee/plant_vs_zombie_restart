@@ -3,7 +3,7 @@ package game.behavior.plant.shoot;
 import game.config.bullect.BulletCard;
 import game.spirits.interfaces.Bullet;
 import game.spirits.interfaces.Plant;
-import game.behavior.plant.BehaviorHandler;
+import game.behavior.BehaviorHandler;
 import game.spirits.util.Production;
 
 import java.util.ArrayList;

@@ -20,7 +20,7 @@ public class Mission1 implements Mission {
                 .addNewWeight("coneZombie", 10)
                 .addNewWeight("normalZombie", 10)
                 .addNewWeight("paperZombie", 10)
-                .addNewWeight("coneZombie", 10)
+                .addNewWeight("bucketZombie", 100)
                 .over().build();
 
     }
