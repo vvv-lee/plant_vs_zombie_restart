@@ -30,6 +30,7 @@ public class Main extends Application {
         beforeStart();
         start(gameScene,primaryStage);
 
+
     }
 
     private void  beforeStart(){
