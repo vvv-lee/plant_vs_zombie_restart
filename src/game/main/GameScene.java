@@ -35,6 +35,7 @@ public class GameScene extends Scene {
 
     public GameScene() {
         super(gamePane);
+
         showCanvas.widthProperty().bind(widthProperty());
         showCanvas.heightProperty().bind(heightProperty());
         gamePane.getChildren().addAll(showCanvas);
